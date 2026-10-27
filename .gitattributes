@@ -1,0 +1,5 @@
+# Keep Linux line endings for scripts even when committed from Windows
+* text=auto
+*.sh text eol=lf
+Dockerfile text eol=lf
+*.yml text eol=lf
